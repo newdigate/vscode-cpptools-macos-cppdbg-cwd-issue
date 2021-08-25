@@ -1,6 +1,6 @@
 # demonstration of vscode cppdbg ignoring cwd on macos
 
-When I debug the application on macos using vscode's cppdbg extension, I would expect the executable to be launched from the ```${workspace}``` folder, as I have specified ```cwd``` in launch.json... 
+When I debug the application on macos using vscode's ```C/C++ for Visual Studio Code``` extension, I would expect the executable to be launched from the ```${workspace}``` folder, as I have specified ```cwd``` in launch.json... 
 
 However, the executable is launched from the ```build``` folder.
 
@@ -39,8 +39,11 @@ output:
 versions:
 
 C/C++ for Visual Studio Code: ```Version 1.6.0: August 24, 2021```
+
 nodejs: ```v14.17.5```
-vscode: ```
+
+vscode: 
+```
     Version: 1.59.1 (Universal)
     Commit: 3866c3553be8b268c8a7f8c0482c0c0177aa8bfa
     Date: 2021-08-19T11:53:52.479Z (6 days ago)
@@ -50,4 +53,3 @@ vscode: ```
     V8: 9.1.269.36-electron.0
     OS: Darwin x64 20.6.0
 ```
-   
